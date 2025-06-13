@@ -68,3 +68,54 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+https://reactrouter.com/6.30.1/start/tutorial
+
+https://react.dev/reference/react/useContext
+
+MOCK pour TU jest fait aussi des snapshot
+https://www.csrhymes.com/2022/03/09/mocking-axios-with-jest-and-typescript.html
+
+
+
+
+https://react.dev/reference/react/useContext
+useContext – React
+The library for web and native user interfaces
+ 
+https://react.dev/reference/react/useEffect#useeffect
+useEffect – React
+The library for web and native user interfaces
+ 
+https://reactrouter.com/api/hooks/useNavigate
+useNavigate 
+ 
+
+ 
+https://fr.react.dev/reference/react/useReducer
+useReducer – React
+La bibliothèque pour des interfaces utilisateurs web et natives
+ 
+https://fr.react.dev/reference/react/useRef
+useRef – React
+La bibliothèque pour des interfaces utilisateurs web et natives
+ 
+https://dev.to/manuartero/testing-a-react-context-provider-5cfg
+Testing a React Context Provider
+Quick context: I was asked to modify an existing Context Provider - named  -...
+ 
+https://www.csrhymes.com/2022/03/09/mocking-axios-with-jest-and-typescript.html
+Mocking axios in Jest tests with Typescript
+How to mock axios in Jest tests when using Typescript
+ 
+https://react.dev/learn/typescript
+Using TypeScript – React
+The library for web and native user interfaces
+ 
+https://reactnavigation.org/docs/themes/
+Themes | React Navigation
+Themes allow you to change the colors and fonts of various components provided by React Navigation. You can use themes to:
+ 
