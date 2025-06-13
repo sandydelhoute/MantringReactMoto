@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { MotoContext } from "../Contexts/MotoContext";
 import { useNavigate } from "react-router";
+import { AddMotoBack } from "../Services/MotosService";
 
 const AddMoto = () => {
     const [modele, setModele]=useState("s32"); //impossible de modifier la variable sans son set
@@ -13,10 +14,11 @@ const AddMoto = () => {
     const EnvoiDeFormulaire = (event) => { //fonction lié à un évènement décrit dans balise html
         event.preventDefault(); //empêche comportement par défaut du html
         console.log("Envoi de formulaire");
-        var newListMoto = motos;
-        newListMoto.push({constructeur: constructeur, prix:prix, modele:modele}); //liste intermédiaire pour pouvoir set le nouvel élèment
-        setMotos(newListMoto);
+        
         console.log(motos);
+        AddMotoBack(motos, setMotos, constructeur, prix, modele); //fonction appelant le back-end
+        var moto:Moto;
+
     }
     const ModeleChange = (event) =>{
         console.log("Changement de modele");
