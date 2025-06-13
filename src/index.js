@@ -48,9 +48,13 @@ const Parents = () => {
   useEffect(() => {
     console.log("je suis dans useEffect")
   }, [motos]);
-  
+
+//value={{motos, setMotos}} -> est un equivalent à un json: {{"motos": motos, "setMotos": setMotos}} 
+// c'est juste que si nom et nom de variable est le même, pas besoin de mettre les 2
+
+//Le context provider doit englobé le router pour être disponible sur toutes les pages
   return (
-    <MotoContext.Provider value={{motos, setMotos}}>
+    <MotoContext.Provider value={{motos, setMotos}}> 
       <RouterProvider router={router} />
     </MotoContext.Provider>
   )
